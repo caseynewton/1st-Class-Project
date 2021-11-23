@@ -1,0 +1,5 @@
+CREATE TABLE reviews_cn (
+ID INT,
+reviewer VARCHAR (100) NOT NULL PRIMARY KEY,
+review VARCHAR (255) NOT NULL,
+rating INT);
